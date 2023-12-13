@@ -1,6 +1,6 @@
 import React from "react";
 import heroImg from "../assets/hero.svg";
-import { FaGithubSquare, FaLinkedin, FaTwitterSquare } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin, FaDribbbleSquare } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -21,8 +21,8 @@ const Hero = () => {
             <a href="https://www.linkedin.com/in/rasif-ajowad-ab87061b9/">
               <FaLinkedin className="h-8 w-8 text-slate-700 hover:text-black duration-300" />
             </a>
-            <a href="https://twitter.com/Rasif_Ajowad">
-              <FaTwitterSquare className="h-8 w-8 text-slate-700 hover:text-black duration-300" />
+            <a href="https://dribbble.com/Rasifajowad">
+              <FaDribbbleSquare className="h-8 w-8 text-slate-700 hover:text-black duration-300" />
             </a>
           </div>
         </article>
